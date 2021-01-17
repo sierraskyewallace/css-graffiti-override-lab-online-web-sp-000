@@ -1,4 +1,4 @@
-# CSS Graffiti Override Lab
+ Graffiti Override Lab
 
 ## Problem Statement
 
