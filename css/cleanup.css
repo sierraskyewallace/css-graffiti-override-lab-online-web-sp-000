@@ -1,41 +1,37 @@
 /* write your override styles here */
 
 
-#wall .tag-1 { /* 110 */
+#wall .tag-1 { 
   display: none;
 }
 
-/* Tag 2 -> 200 */
-body #wall #tag-2 { /* 201 */
+
+body #wall #tag-2 { 
+  display: none;
+}
+wall #tag-3.slick, .wicked{
   display: none;
 }
 
-/* Tag 3 -> 211 */
 
-wall #tag-3.slick, .wicked{ /*222*/
+
+#wall .parent #tag-4 {
   display: none;
 }
 
-/* Tag 4 -> 200 */
 
-#wall .parent #tag-4 { /* 210 */
+#wall .parent #tag-5.slick { 
   display: none;
 }
 
-/* Tag 5 -> 221 */
 
-#wall .parent #tag-5.slick { /*223*/
+
+#wall .parent :last-child #tag-6 { 
   display: none;
 }
 
-/* Tag 6 -> 224 */
 
-#wall .parent :last-child #tag-6 { /*225*/
-  display: none;
-}
 
-/* Tag 7 -> 224 */
-
-#wall .parent  > #tag-7.slick { /*225*/
+#wall .parent  > #tag-7.slick { 
   display: none;
 }
